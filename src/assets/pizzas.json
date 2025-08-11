@@ -1,0 +1,82 @@
+[
+  {
+     
+    "imageUrl": "/img/pizza-3.jpg",
+    "title": "Пепперони Фреш с перцем",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": 805,
+    "categories": [0, 1],
+    "rating": 4
+  },
+  {
+     
+    "imageUrl": "/img/pizza-7.jpg",
+    "title": "Сырная",
+    "types": [0],
+    "sizes": [26, 40],
+    "price": 245,
+    "categories": [0, 2, 4],
+    "rating": 6
+  },
+  {
+    
+    "imageUrl": "/img/pizza-5.jpg",
+    "title": "Цыпленок барбекю",
+    "types": [0],
+    "sizes": [26, 40],
+    "price": 295,
+    "categories": [0, 1, 3],
+    "rating": 4
+  },
+  {
+   
+    "imageUrl": "/img/pizza-6.jpg",
+    "title": "Кисло-сладкий цыпленок",
+    "types": [1],
+    "sizes": [26, 30, 40],
+    "price": 275,
+    "categories": [0, 1, 4],
+    "rating": 2
+  },
+  {
+     
+    "imageUrl": "/img/pizza-8.jpg",
+    "title": "Чизбургер-пицца",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": 415,
+    "categories": [0, 1, 4],
+    "rating": 8
+  },
+  {
+     
+    "imageUrl": "/img/pizza-4.jpg",
+    "title": "Крэйзи пепперони",
+    "types": [0],
+    "sizes": [30, 40],
+    "price": 580,
+    "categories": [0, 1, 4],
+    "rating": 2
+  },
+  {
+     
+    "imageUrl": "/img/pizza-2.jpg",
+    "title": "Пепперони",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": 675,
+    "categories": [0, 1, 3],
+    "rating": 9
+  },
+  {
+     
+    "imageUrl": "/img/pizza-1.jpg",
+    "title": "Маргарита",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": 450,
+    "categories": [0, 2],
+    "rating": 10
+  }
+]

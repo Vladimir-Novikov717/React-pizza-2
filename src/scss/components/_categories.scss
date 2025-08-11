@@ -1,0 +1,62 @@
+@import '../variables';
+
+.categories {
+  margin-top: 30px;
+
+  &__scroll {
+    overflow-x: visible;
+    overflow-y: hidden;
+    max-width: 100%;
+
+    ul {
+      //display: flex;
+      flex-wrap: wrap;
+      overflow: scroll;
+      width: 100%;
+    }
+
+    @media (max-width: 1000px) {
+      overflow-x: auto;
+      white-space: nowrap;
+
+      ul {
+        flex-wrap: nowrap;
+      }
+
+      &::-webkit-scrollbar {
+        height: 6px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: #ccc;
+        border-radius: 3px;
+      }
+    }
+  }
+
+  li {
+    display: inline-block;
+    flex: 0 0 auto;
+    background-color: #f9f9f9;
+    padding: 13px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+    @include noselect();
+
+    &:hover {
+      background-color: darken(#f9f9f9, 2%);
+    }
+
+    &:active {
+      background-color: darken(#f9f9f9, 5%);
+    }
+
+    &.active {
+      background-color: #282828;
+      color: #fff;
+    }
+  }
+}
+
